@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -19,31 +19,36 @@ header{
     padding: 2em 0;
 }
 
-.navigations ul{
+.navigations {
     display: flex;
+    align-items: center;
+    height: 60px;
 }
 
-.navigations ul li{
+.navigations ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navigations ul li {
     list-style: none;
     margin-right: 20px;
 }
 
-.navigations ul li a{
+.navigations ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-.nav-button{
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    justify-content: space-around;
-    gap: 2em;
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-button button{
+.nav-button button {
     color: #fff;
     background-color: #333;
     border: none;
